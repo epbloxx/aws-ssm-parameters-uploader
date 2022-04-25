@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4F7C7FBE-EB96-4858-B06C-3E2BAD6C96E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParametersUploader.Application", "src\ParametersUploader.Application\ParametersUploader.Application.csproj", "{A8D24429-6324-4912-B71D-15DA095E7C42}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParametersUploader.CLI", "src\ParametersUploader.CLI\ParametersUploader.CLI.csproj", "{5EAEDF89-CE3B-4FB8-8C50-E7F7D1E473BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{977CA5F4-9725-4618-BA0C-D9116E2B598E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParametersUploader.Application.Test", "test\ParametersUploader.Application.Test\ParametersUploader.Application.Test.csproj", "{15BE95C1-B177-4DC2-AB1E-8315E1491201}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{6749BA0F-3B7F-4DE5-91C7-23EFD850535F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Build", "build\Build.csproj", "{0BE9164E-5006-45CA-A00F-9B81AD842736}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cake.ParametersUploader", "src\Cake.ParametersUploader\Cake.ParametersUploader.csproj", "{3FE35BD9-209A-4817-B036-8EA728A52F53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8D24429-6324-4912-B71D-15DA095E7C42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8D24429-6324-4912-B71D-15DA095E7C42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8D24429-6324-4912-B71D-15DA095E7C42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8D24429-6324-4912-B71D-15DA095E7C42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EAEDF89-CE3B-4FB8-8C50-E7F7D1E473BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EAEDF89-CE3B-4FB8-8C50-E7F7D1E473BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EAEDF89-CE3B-4FB8-8C50-E7F7D1E473BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EAEDF89-CE3B-4FB8-8C50-E7F7D1E473BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15BE95C1-B177-4DC2-AB1E-8315E1491201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15BE95C1-B177-4DC2-AB1E-8315E1491201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15BE95C1-B177-4DC2-AB1E-8315E1491201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15BE95C1-B177-4DC2-AB1E-8315E1491201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BE9164E-5006-45CA-A00F-9B81AD842736}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BE9164E-5006-45CA-A00F-9B81AD842736}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BE9164E-5006-45CA-A00F-9B81AD842736}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BE9164E-5006-45CA-A00F-9B81AD842736}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FE35BD9-209A-4817-B036-8EA728A52F53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FE35BD9-209A-4817-B036-8EA728A52F53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FE35BD9-209A-4817-B036-8EA728A52F53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FE35BD9-209A-4817-B036-8EA728A52F53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A8D24429-6324-4912-B71D-15DA095E7C42} = {4F7C7FBE-EB96-4858-B06C-3E2BAD6C96E4}
+		{5EAEDF89-CE3B-4FB8-8C50-E7F7D1E473BC} = {4F7C7FBE-EB96-4858-B06C-3E2BAD6C96E4}
+		{15BE95C1-B177-4DC2-AB1E-8315E1491201} = {977CA5F4-9725-4618-BA0C-D9116E2B598E}
+		{0BE9164E-5006-45CA-A00F-9B81AD842736} = {6749BA0F-3B7F-4DE5-91C7-23EFD850535F}
+		{3FE35BD9-209A-4817-B036-8EA728A52F53} = {4F7C7FBE-EB96-4858-B06C-3E2BAD6C96E4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5E5C27A-FE52-4BAA-BD33-415EECB39DB7}
+	EndGlobalSection
+EndGlobal
